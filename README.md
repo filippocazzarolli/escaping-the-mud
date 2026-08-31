@@ -1,7 +1,14 @@
 # Escaping the Mud
 
-Confronto tra approccio **framework/database-centric** e **Domain-Driven Design**: due filosofie per progettare software destinato a evolvere.
+![Dal Big Ball of Mud a un core di dominio al centro](images/hero-escaping-the-mud.png)
 
-![Big Ball of Mud vs applicazione modulare](images/05-ball-of-mud-vs-modular.png)
+Slide per organizzare il codice in modo pulito, con le **regole di business al centro**.
 
-[Inizia la presentazione →](slides/01-titolo.md)
+Framework, database e UI restano dettagli implementativi: il dominio guida il design, non lo stack.
+
+## Percorsi
+
+| # | Percorso | Cosa affronta |
+|---|---|---|
+| 1 | [DDD vs Framework](1.DDD-vs-framework/README.md) | Confronto tra approccio framework/database-centric e Domain-Driven Design |
+| 2 | [Architettura esagonale](2.Hexagonal-architecture/README.md) | Ports & Adapters: proteggere il core con contratti e traduzioni |
