@@ -12,3 +12,4 @@ Framework, database e UI restano dettagli implementativi: il dominio guida il de
 |---|---|---|
 | 1 | [DDD vs Framework](1.DDD-vs-framework/README.md) | Confronto tra approccio framework/database-centric e Domain-Driven Design |
 | 2 | [Architettura esagonale](2.Hexagonal-architecture/README.md) | Ports & Adapters: proteggere il core con contratti e traduzioni |
+| 3 | [Complessità e moduli profondi](3.PhilosophyofSoftwareDesign/README.md) | Appunti (capp. 1–8): fango, bordi stretti, regola al centro |
