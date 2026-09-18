@@ -16,22 +16,24 @@ Ogni capitolo è scrivibile e verificabile da solo. Un task è **fatto** quando:
 - gli snippet sono in blocchi ` ```text ` (pseudo-codice, non un framework)
 - contiene una sezione di confine — «Cosa resta fuori» o «Cosa non è questo capitolo»
 - l'ultimo paragrafo apre il capitolo successivo
-- tutti i link relativi risolvono
+- `scripts/check-links.sh` passa
+
+Lo scheletro da copiare sta in `_template/capitolo.md`; quello del README di percorso in `_template/percorso-README.md`.
 
 Peso: **S** capitolo corto, **M** standard, **L** concetti nuovi o molti file esistenti da toccare.
 
-## Fase 0 — Fondamenta
+## Fase 0 — Fondamenta — fatta
 
-Da fare prima: sbloccano tutti i capitoli e non dipendono da nessun contenuto nuovo.
-
-| Task | Cosa | Peso |
+| Task | Cosa | Esito |
 |---|---|---|
-| T0.1 | Template di capitolo e di README di percorso, estratto dalle convenzioni esistenti (paths 2–4) | S |
-| T0.2 | Decidere la numerazione: nuovi percorsi 7–10 con Agentic AI che resta al 6, oppure indice radice diviso in «percorso principale» ed «extra» | S |
-| T0.3 | Catena dei percorsi: oggi 1, 4, 5 e 6 finiscono senza link al percorso seguente. Solo 2 e 3 agganciano avanti | S |
-| T0.4 | Controllo link relativi e immagini mancanti, da rieseguire alla fine di ogni percorso | S |
+| T0.1 | Template di capitolo e di README di percorso | `_template/capitolo.md`, `_template/percorso-README.md` |
+| T0.2 | Numerazione | Il numero è quello della cartella e non si tocca; l'ordine di lettura è quello del README radice, diviso in «Percorsi» e «Letture laterali» |
+| T0.3 | Catena dei percorsi | I percorsi 1 e 4 ora agganciano il seguente; 5 e 6 rimandano alla mappa. Ogni ultimo capitolo chiude con «Mappa dei percorsi» |
+| T0.4 | Controllo dei link | `scripts/check-links.sh`: link relativi, immagini mancanti e immagini non usate |
 
-T0.2 va deciso prima di creare cartelle: rinominare dopo costa la riscrittura di tutti i link incrociati.
+**Decisione su T0.2.** I nuovi percorsi sono `7.Persistenza`, `8.Eventi`, `9.Test`, `10.Moduli`: si accodano alle cartelle esistenti, senza rinominare niente. In lettura, però, vengono dopo il percorso 4 e prima delle due letture laterali — gli appunti su Ousterhout (5) e Agentic AI (6) — perché nessuna delle due serve per andare avanti. Il README radice dice l'ordine; la cartella dice solo l'identità.
+
+L'alternativa — rinumerare le due letture laterali in coda, così che l'ordine delle cartelle sia l'ordine di lettura — resta aperta e oggi costa poco: solo il README radice le cita. Va fatta prima che i percorsi nuovi esistano, non dopo.
 
 ## Fase 1 — Percorso 7: Persistenza
 
