@@ -35,7 +35,9 @@ Peso: **S** capitolo corto, **M** standard, **L** concetti nuovi o molti file es
 
 L'alternativa — rinumerare le due letture laterali in coda, così che l'ordine delle cartelle sia l'ordine di lettura — resta aperta e oggi costa poco: solo il README radice le cita. Va fatta prima che i percorsi nuovi esistano, non dopo.
 
-## Fase 1 — Percorso 7: Persistenza
+## Fase 1 — Percorso 7: Persistenza — in corso
+
+Fatti: **P7.0** (`7.Persistenza/README.md`) e **P7.1**. Il capitolo 1 non ha ancora il link «Avanti»: lo aggiunge P7.2, quando il file esiste. Le immagini restano segnate nei file come commenti `P7.7`, con la descrizione del diagramma da fare.
 
 Debito da chiudere:
 
