@@ -2,6 +2,8 @@
 
 Tutto quello che serve sapere — **Ports & Adapters**.
 
+I [percorsi 2](../2.DDD-strategico/README.md) e [3](../3.DDD-tattico/README.md) hanno i confini del modello e le regole in codice. Qui si protegge quel **core**: contratti sul bordo, traduzioni fuori.
+
 Ispirato a [*Hexagonal Architecture (All You Need to Know)*](https://www.youtube.com/watch?v=k_GkYMd8Ouc) di Gui Ferreira, a partire da Alistair Cockburn (2005).
 
 ![Ports & Adapters: il core al centro, driving a sinistra, driven a destra](img/07-esagono-ports-adapters.png)

@@ -5,3 +5,5 @@ Confronto tra approccio **framework/database-centric** e **Domain-Driven Design*
 ![Big Ball of Mud vs applicazione modulare](images/05-ball-of-mud-vs-modular.png)
 
 [Inizia la presentazione →](slides/01-titolo.md)
+
+Poi: [DDD strategico — Trovare i confini](../2.DDD-strategico/README.md).

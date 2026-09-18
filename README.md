@@ -11,6 +11,8 @@ Framework, database e UI restano dettagli implementativi: il dominio guida il de
 | # | Percorso | Cosa affronta |
 |---|---|---|
 | 1 | [DDD vs Framework](1.DDD-vs-framework/README.md) | Confronto tra approccio framework/database-centric e Domain-Driven Design |
-| 2 | [Architettura esagonale](2.Hexagonal-architecture/README.md) | Ports & Adapters: proteggere il core con contratti e traduzioni |
-| 3 | [Complessità e moduli profondi](3.PhilosophyofSoftwareDesign/README.md) | Appunti (capp. 1–8): fango, bordi stretti, regola al centro |
-| 4 | [Agentic AI](4.Agentic-Ai/README.md) | Da chat ad agenti: loop, harness, memoria, MCP, skills |
+| 2 | [DDD strategico — Trovare i confini](2.DDD-strategico/README.md) | Dove finisce un modello e ne comincia un altro |
+| 3 | [DDD tattico — Le regole prendono forma](3.DDD-tattico/README.md) | Come una regola di business diventa codice |
+| 4 | [Architettura esagonale](4.Hexagonal-architecture/README.md) | Ports & Adapters: proteggere il core con contratti e traduzioni |
+| 5 | [Complessità e moduli profondi](5.PhilosophyofSoftwareDesign/README.md) | Appunti (capp. 1–8): fango, bordi stretti, regola al centro |
+| 6 | [Agentic AI](6.Agentic-Ai/README.md) | Da chat ad agenti: loop, harness, memoria, MCP, skills |
