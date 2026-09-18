@@ -27,13 +27,15 @@ Peso: **S** capitolo corto, **M** standard, **L** concetti nuovi o molti file es
 | Task | Cosa | Esito |
 |---|---|---|
 | T0.1 | Template di capitolo e di README di percorso | `_template/capitolo.md`, `_template/percorso-README.md` |
-| T0.2 | Numerazione | Il numero è quello della cartella e non si tocca; l'ordine di lettura è quello del README radice, diviso in «Percorsi» e «Letture laterali» |
+| T0.2 | Numerazione | Percorsi numerati in ordine di lettura; letture laterali senza numero, con le slide sull'AI sempre per ultime (`99.Agentic-Ai`) |
 | T0.3 | Catena dei percorsi | I percorsi 1 e 4 ora agganciano il seguente; 5 e 6 rimandano alla mappa. Ogni ultimo capitolo chiude con «Mappa dei percorsi» |
 | T0.4 | Controllo dei link | `scripts/check-links.sh`: link relativi, immagini mancanti e immagini non usate |
 
-**Decisione su T0.2.** I nuovi percorsi sono `7.Persistenza`, `8.Eventi`, `9.Test`, `10.Moduli`: si accodano alle cartelle esistenti, senza rinominare niente. In lettura, però, vengono dopo il percorso 4 e prima delle due letture laterali — gli appunti su Ousterhout (5) e Agentic AI (6) — perché nessuna delle due serve per andare avanti. Il README radice dice l'ordine; la cartella dice solo l'identità.
+**Decisione su T0.2.** I nuovi percorsi sono `7.Persistenza`, `8.Eventi`, `9.Test`, `10.Moduli`: si accodano alle cartelle esistenti, senza rinominare niente. In lettura vengono dopo il percorso 4 e prima delle letture laterali, perché nessuna delle due serve per andare avanti.
 
-L'alternativa — rinumerare le due letture laterali in coda, così che l'ordine delle cartelle sia l'ordine di lettura — resta aperta e oggi costa poco: solo il README radice le cita. Va fatta prima che i percorsi nuovi esistano, non dopo.
+Le **slide sull'AI stanno sempre per ultime**. Per non doverle rinumerare ogni volta che nasce un percorso, la cartella è `99.Agentic-Ai`: il numero non è una posizione in classifica, è un modo di dire «in fondo, qualunque cosa arrivi prima». Nel README radice le letture laterali non hanno numero: non sono passi di una sequenza.
+
+Resta aperto il caso degli appunti su Ousterhout: sono anche loro una lettura laterale, ma la cartella è ancora `5`, quindi nell'albero compaiono prima dei percorsi 7–10. Se dà fastidio, si toglie il numero anche a loro — oggi le cita solo il README radice e un capitolo del percorso 4.
 
 ## Fase 1 — Percorso 7: Persistenza — in corso
 
@@ -137,7 +139,7 @@ Non sono buchi dichiarati: sono estensioni. Restano fuori dalle quattro fasi.
 | Percorso 3, capitoli aggiuntivi | Creazione valida, servizio di dominio (oggi solo accennato), errori di dominio |
 | Percorso 4, capitoli aggiuntivi | Composition root e struttura delle cartelle; quando **non** mettere un port |
 | Percorso 2, capitoli aggiuntivi | Il metodo di scoperta (EventStorming, Example Mapping); appendice sui pattern di relazione fra contesti |
-| Percorso 6, estensione | Un tool è un port; valutazione degli agenti; permessi; e il ponte finale: perché un core con bordi stretti è leggibile anche da un agente |
+| Agentic AI, estensione | Un tool è un port; valutazione degli agenti; permessi; e il ponte finale: perché un core con bordi stretti è leggibile anche da un agente |
 | Altri | CQRS e read model, validazione al bordo, autorizzazione, osservabilità come driven port, decisioni scritte, galleria di anti-pattern |
 
 Fuori portata per scelta: microservizi e infrastruttura, tutorial legati a un framework, tassonomia DDD completa, event sourcing come percorso a sé.

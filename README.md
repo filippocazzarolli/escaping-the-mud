@@ -20,11 +20,11 @@ Una storia sola, in ordine. Il numero resta quello della cartella, anche quando 
 
 ## Letture laterali
 
-Si innestano dove vuoi: non servono per andare avanti.
+Si innestano dove vuoi: non servono per andare avanti. Non sono numerate, e le slide sull'AI restano sempre per ultime.
 
-| # | Percorso | Cosa affronta |
-|---|---|---|
-| 5 | [Complessità e moduli profondi](5.PhilosophyofSoftwareDesign/README.md) | Appunti (capp. 1–8): fango, bordi stretti, regola al centro |
-| 6 | [Agentic AI](6.Agentic-Ai/README.md) | Da chat ad agenti: loop, harness, memoria, MCP, skills |
+| Percorso | Cosa affronta |
+|---|---|
+| [Complessità e moduli profondi](5.PhilosophyofSoftwareDesign/README.md) | Appunti (capp. 1–8): fango, bordi stretti, regola al centro |
+| [Agentic AI](99.Agentic-Ai/README.md) | Da chat ad agenti: loop, harness, memoria, MCP, skills |
 
 I percorsi che chiudono le promesse ancora aperte — persistenza, eventi, test, moduli — stanno nella [roadmap](ROADMAP.md).

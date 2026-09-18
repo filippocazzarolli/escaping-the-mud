@@ -12,7 +12,7 @@ broken=$(mktemp)
 orphans=$(mktemp)
 trap 'rm -f "$broken" "$orphans"' EXIT
 
-# I blocchi recintati restano fuori: contengono esempi (l'`agents.md` del percorso 6)
+# I blocchi recintati restano fuori: contengono esempi (l'`agents.md` del percorso sull'AI)
 # che non sono link di questo repo.
 # Anche _template resta fuori: i suoi segnaposto non esistono per definizione.
 extract_links() {
