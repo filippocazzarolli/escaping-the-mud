@@ -37,13 +37,15 @@ Le **slide sull'AI stanno sempre per ultime**. Per non doverle rinumerare ogni v
 
 Resta aperto il caso degli appunti su Ousterhout: sono anche loro una lettura laterale, ma la cartella è ancora `5`, quindi nell'albero compaiono prima dei percorsi 7–10. Se dà fastidio, si toglie il numero anche a loro — oggi le cita solo il README radice e un capitolo del percorso 4.
 
-## Fase 1 — Percorso 7: Persistenza — testi finiti
+## Fase 1 — Percorso 7: Persistenza — resta P7.7
 
-Scritti tutti e sei i capitoli, più il README: **P7.0** → **P7.6**. Restano **P7.7** (le sei immagini) e **P7.8** (chiusura del debito).
+Fatti **P7.0** → **P7.6** e **P7.8**. Resta solo **P7.7**, le sei immagini: ogni capitolo porta al loro posto un commento `P7.7` con la descrizione del diagramma da fare.
 
-Ogni capitolo porta il commento `P7.7` con la descrizione del diagramma da fare, al posto dell'immagine. Il capitolo 6 chiude il percorso e rimanda al percorso sugli eventi senza link: è una delle promesse che P8.8 deve trasformare in collegamento.
+Il debito è chiuso in cinque punti: `3.DDD-tattico/2.value-object.md`, `4.aggregate.md`, `5.use-case-e-dominio.md`, `4.Hexagonal-architecture/5.perche-usarla.md` e `6.sintesi.md`, che ora aggancia il percorso 7 come passo seguente invece degli appunti sulla complessità.
 
-Debito da chiudere:
+Il capitolo 6 chiude il percorso e rimanda al percorso sugli eventi senza link: è una delle promesse che P8.8 deve trasformare in collegamento.
+
+Debito chiuso. La frase era:
 
 > «Non è la transazione del database, non è un lock, non è "un aggregate = una tabella". **La persistenza arriverà**.»
 > — `3.DDD-tattico/4.aggregate.md:37`

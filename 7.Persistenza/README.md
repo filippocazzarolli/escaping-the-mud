@@ -2,7 +2,7 @@
 
 Dove si mette lo stato, quando la regola sta nel dominio.
 
-Il [percorso 3](../3.DDD-tattico/README.md) ha chiuso l'ordine dietro operazioni di dominio e ha rimandato una frase: «la persistenza arriverà». Arriva qui. Il [percorso 4](../4.Hexagonal-architecture/README.md) ha già dato i nomi: il contratto sul bordo è un **port**, la tecnologia sta in un **adapter**.
+Il [percorso 3](../3.DDD-tattico/README.md) ha chiuso l'ordine dietro operazioni di dominio e ha lasciato fuori tabelle, transazioni e lock: arrivano qui. Il [percorso 4](../4.Hexagonal-architecture/README.md) ha già dato i nomi: il contratto sul bordo è un **port**, la tecnologia sta in un **adapter**.
 
 <!-- P7.7 — img/00-modello-e-schema.png: l'aggregate Ordine al centro, lo schema fuori dal bordo, il port in mezzo -->
 
