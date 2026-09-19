@@ -17,6 +17,9 @@ Una storia sola, in ordine. Il numero resta quello della cartella, anche quando 
 | 3 | [DDD tattico — Le regole prendono forma](3.DDD-tattico/README.md) | Come una regola di business diventa codice |
 | 4 | [Architettura esagonale](4.Hexagonal-architecture/README.md) | Ports & Adapters: proteggere il core con contratti e traduzioni |
 | 7 | [Persistenza — il modello e lo schema](7.Persistenza/README.md) | Aggregate e tabelle, repository come port, transazioni, conflitti |
+| 8 | [Eventi — dopo il confine](8.Eventi/README.md) | Fatti, outbox, coerenza differita, coreografia |
+| 9 | [Test — il conto del design](9.Test/README.md) | Dominio senza mock, un port due adapter, nomi come frasi |
+| 10 | [Moduli — il confine nel codice](10.Moduli/README.md) | Visibilità, grafo, test di architettura, schemi, quando estrarre |
 
 ## Letture laterali
 
@@ -27,4 +30,4 @@ Si innestano dove vuoi: non servono per andare avanti. Non sono numerate, e le s
 | [Complessità e moduli profondi](5.PhilosophyofSoftwareDesign/README.md) | Appunti (capp. 1–8): fango, bordi stretti, regola al centro |
 | [Agentic AI](99.Agentic-Ai/README.md) | Da chat ad agenti: loop, harness, memoria, MCP, skills |
 
-I percorsi che chiudono le promesse ancora aperte — eventi, test, moduli — stanno nella [roadmap](ROADMAP.md).
+La storia principale chiude al [percorso 10](10.Moduli/README.md). Il taglio dei task sta nella [roadmap](ROADMAP.md).

@@ -62,9 +62,11 @@ Debito chiuso. La frase era:
 
 Fuori: tutorial di un ORM specifico, event sourcing, CQRS.
 
-## Fase 2 — Percorso 8: Eventi
+## Fase 2 — Percorso 8: Eventi — fatta
 
-Debiti da chiudere:
+Fatti **P8.0** → **P8.8**. Sei capitoli, sei diagrammi, debito chiuso verso percorsi 2, 3 e 7.
+
+Debiti chiusi:
 
 > «Chi ascolta — magazzino che riserva scorta — sta oltre il confine.»
 > — `3.DDD-tattico/4.aggregate.md:33`
@@ -84,9 +86,11 @@ Debiti da chiudere:
 | P8.7 | Le sei immagini | — | — | M |
 | P8.8 | Chiusura del debito | Link da `3.DDD-tattico/4.aggregate.md:33`, dal commento in `3.DDD-tattico/5.use-case-e-dominio.md:22`, dal satellite Pagamento in `2.DDD-strategico/4.context-map.md:17`, dai rimandi in `7.Persistenza/4.chi-apre-la-transazione.md` e `7.Persistenza/6.quando-basta-il-framework.md`, più il README radice | M |
 
-## Fase 3 — Percorso 9: Test
+## Fase 3 — Percorso 9: Test — fatta
 
-Debito da chiudere: il percorso esagonale dedica una sezione alla testabilità e formula una regola operativa, ma in tutto il repo non c'è un test.
+Fatti **P9.0** → **P9.8**. Sei capitoli, sei diagrammi, debito chiuso verso il percorso esagonale.
+
+Debito chiuso. Era: il percorso esagonale dedica una sezione alla testabilità e formula una regola operativa, ma in tutto il repo non c'è un test.
 
 > «Se non riesci a scrivere il secondo, il port probabilmente **non è un contratto abbastanza pulito**.»
 > — `4.Hexagonal-architecture/5.perche-usarla.md:61`
@@ -103,9 +107,11 @@ Debito da chiudere: il percorso esagonale dedica una sezione alla testabilità e
 | P9.7 | Le sei immagini | — | — | M |
 | P9.8 | Chiusura del debito | Link dalla sezione «Testabilità by design» e dalla regola «un port, due adapter» (`4.Hexagonal-architecture/5.perche-usarla.md:38-61`) e dalla riga Test della mappa mentale (`6.sintesi.md:26`) | S |
 
-## Fase 4 — Percorso 10: Monolite modulare
+## Fase 4 — Percorso 10: Monolite modulare — fatta
 
-Debito da chiudere:
+Fatti **P10.0** → **P10.8**. Sei capitoli, sei diagrammi, debito chiuso verso il percorso 2.
+
+Debito chiuso:
 
 > «Il monolite modulare — **quando arriverà** — parla di moduli e dipendenze.»
 > — `2.DDD-strategico/2.sottodominio-e-bounded-context.md:33`
@@ -129,6 +135,8 @@ Debito da chiudere:
 - Fase 2 conviene dopo la fase 1: l'outbox presuppone il capitolo su transazione e salvataggio.
 - Fase 4 è autonoma, ma il capitolo P10.5 cita la persistenza della fase 1.
 - Dentro un percorso: prima P?.0, poi i capitoli in ordine, poi le immagini, e per ultimo P?.8. La chiusura del debito va sempre in fondo, perché è l'unico task che modifica slide esistenti.
+
+Le quattro fasi della roadmap dei debiti sono chiuse. Resta il backlog.
 
 ## Backlog — dopo i debiti
 
