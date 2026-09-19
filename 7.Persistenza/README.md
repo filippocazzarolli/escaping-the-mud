@@ -14,7 +14,7 @@ Leggi i capitoli in ordine. Ogni pagina è collegata alla precedente e alla succ
 |---|---|---|
 | 1 | [Un aggregate non è una tabella](1.aggregate-non-e-tabella.md) | La forma dello stato non è la forma della regola |
 | 2 | [Il repository è un port](2.repository-e-un-port.md) | `Ordini` è un contratto del core, non un DAO |
-| 3 | Il mapping sta nell'adapter *(in arrivo)* | Come si ricostruisce un aggregate senza setter pubblici |
+| 3 | [Il mapping sta nell'adapter](3.mapping-nell-adapter.md) | Come si ricostruisce un aggregate senza setter pubblici |
 | 4 | Chi apre la transazione *(in arrivo)* | Il confine transazionale è dello use case, non del modello |
 | 5 | Due utenti, stesso ordine *(in arrivo)* | Il conflitto è un esito che il dominio sa nominare |
 | 6 | Quando basta l'entità del framework *(in arrivo)* | Il doppio modello si paga dove c'è complessità |

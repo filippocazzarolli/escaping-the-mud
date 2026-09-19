@@ -39,7 +39,7 @@ Resta aperto il caso degli appunti su Ousterhout: sono anche loro una lettura la
 
 ## Fase 1 — Percorso 7: Persistenza — in corso
 
-Fatti: **P7.0** (`7.Persistenza/README.md`), **P7.1**, **P7.2**. L'ultimo capitolo scritto non ha il link «Avanti» finché il successivo non esiste: lo aggiunge il task dopo. Le immagini restano segnate nei file come commenti `P7.7`, con la descrizione del diagramma da fare.
+Fatti: **P7.0** (`7.Persistenza/README.md`), **P7.1**, **P7.2**, **P7.3**. L'ultimo capitolo scritto non ha il link «Avanti» finché il successivo non esiste: lo aggiunge il task dopo. Le immagini restano segnate nei file come commenti `P7.7`, con la descrizione del diagramma da fare.
 
 Debito da chiudere:
 
