@@ -27,4 +27,4 @@ Si innestano dove vuoi: non servono per andare avanti. Non sono numerate, e le s
 | [Complessità e moduli profondi](5.PhilosophyofSoftwareDesign/README.md) | Appunti (capp. 1–8): fango, bordi stretti, regola al centro |
 | [Agentic AI](99.Agentic-Ai/README.md) | Da chat ad agenti: loop, harness, memoria, MCP, skills |
 
-I percorsi che chiudono le promesse ancora aperte — persistenza, eventi, test, moduli — stanno nella [roadmap](ROADMAP.md).
+I percorsi che chiudono le promesse ancora aperte — eventi, test, moduli — stanno nella [roadmap](ROADMAP.md).
