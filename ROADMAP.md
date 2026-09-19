@@ -39,7 +39,7 @@ Resta aperto il caso degli appunti su Ousterhout: sono anche loro una lettura la
 
 ## Fase 1 — Percorso 7: Persistenza — in corso
 
-Fatti: **P7.0** (`7.Persistenza/README.md`), **P7.1**, **P7.2**, **P7.3**. L'ultimo capitolo scritto non ha il link «Avanti» finché il successivo non esiste: lo aggiunge il task dopo. Le immagini restano segnate nei file come commenti `P7.7`, con la descrizione del diagramma da fare.
+Fatti: **P7.0** (`7.Persistenza/README.md`), **P7.1**, **P7.2**, **P7.3**, **P7.4**. L'ultimo capitolo scritto non ha il link «Avanti» finché il successivo non esiste: lo aggiunge il task dopo. Le immagini restano segnate nei file come commenti `P7.7`, con la descrizione del diagramma da fare.
 
 Debito da chiudere:
 
@@ -80,7 +80,7 @@ Debiti da chiudere:
 | P8.5 | Lo stesso messaggio due volte | Consegna almeno una volta, idempotenza, chi si difende | `05-idempotenza.png` | M |
 | P8.6 | Coreografia od orchestrazione | Il pagamento come processo lungo, e quando serve un process manager. Una riga per dire che l'event sourcing è un altro discorso | `06-coreografia-vs-orchestrazione.png` | M |
 | P8.7 | Le sei immagini | — | — | M |
-| P8.8 | Chiusura del debito | Link da `3.DDD-tattico/4.aggregate.md:33`, dal commento in `3.DDD-tattico/5.use-case-e-dominio.md:22`, dal satellite Pagamento in `2.DDD-strategico/4.context-map.md:17`, più il README radice | M |
+| P8.8 | Chiusura del debito | Link da `3.DDD-tattico/4.aggregate.md:33`, dal commento in `3.DDD-tattico/5.use-case-e-dominio.md:22`, dal satellite Pagamento in `2.DDD-strategico/4.context-map.md:17`, dal rimando «è il seguito di questo percorso» in `7.Persistenza/4.chi-apre-la-transazione.md`, più il README radice | M |
 
 ## Fase 3 — Percorso 9: Test
 
