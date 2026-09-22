@@ -19,6 +19,7 @@ Leggi i capitoli in ordine. Ogni pagina è collegata alla precedente e alla succ
 | 5 | [Conformarsi o tradurre](5.conformarsi-o-tradurre.md) | Conformist e Anticorruption Layer |
 | 6 | [Kernel e partnership](6.kernel-e-partnership.md) | Shared Kernel e Partnership |
 | 7 | [Separarsi o demarcare](7.separarsi-o-demarcare.md) | Separate Ways, Big Ball of Mud, sintesi su Vendite |
+| 8 | [Dalla context map a NestJS + CQRS](8.nestjs-cqrs.md) | Ogni pattern come confine di import in un monolite NestJS |
 
 ## L'idea in una frase
 
