@@ -148,7 +148,8 @@ Non sono buchi dichiarati: sono estensioni. Restano fuori dalle quattro fasi.
 | Ousterhout, secondo blocco (capp. 9–21) | Errori definiti fuori dall'esistenza, progettarlo due volte, nomi, commenti come design, codice ovvio |
 | Percorso 3, capitoli aggiuntivi | Creazione valida, servizio di dominio (oggi solo accennato), errori di dominio |
 | Percorso 4, capitoli aggiuntivi | Composition root e struttura delle cartelle; quando **non** mettere un port |
-| Percorso 2, capitoli aggiuntivi | Il metodo di scoperta (EventStorming, Example Mapping); appendice sui pattern di relazione fra contesti |
+| Percorso 2, capitoli aggiuntivi | Il metodo di scoperta (EventStorming, Example Mapping) |
+| Percorso 2.1 Canvas e relazioni | Fatto: Bounded Context Canvas + rapporti di team e nove pattern (ddd-crew), come approfondimento del percorso 2 |
 | Agentic AI, estensione | Un tool è un port; valutazione degli agenti; permessi; e il ponte finale: perché un core con bordi stretti è leggibile anche da un agente |
 | Altri | CQRS e read model, validazione al bordo, autorizzazione, osservabilità come driven port, decisioni scritte, galleria di anti-pattern |
 

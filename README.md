@@ -14,6 +14,7 @@ Una storia sola, in ordine. Il numero resta quello della cartella, anche quando 
 |---|---|---|
 | 1 | [DDD vs Framework](1.DDD-vs-framework/README.md) | Confronto tra approccio framework/database-centric e Domain-Driven Design |
 | 2 | [DDD strategico — Trovare i confini](2.DDD-strategico/README.md) | Dove finisce un modello e ne comincia un altro |
+| 2.1 | [Canvas e relazioni fra contesti](2.1.Canvas-e-relazioni/README.md) | Approfondimento: Bounded Context Canvas e tutti i pattern di context mapping |
 | 3 | [DDD tattico — Le regole prendono forma](3.DDD-tattico/README.md) | Come una regola di business diventa codice |
 | 4 | [Architettura esagonale](4.Hexagonal-architecture/README.md) | Ports & Adapters: proteggere il core con contratti e traduzioni |
 | 7 | [Persistenza — il modello e lo schema](7.Persistenza/README.md) | Aggregate e tabelle, repository come port, transazioni, conflitti |

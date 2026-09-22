@@ -23,6 +23,10 @@ Leggi i capitoli in ordine. Ogni pagina è collegata alla precedente e alla succ
 
 Una parola vale solo **dentro** un contesto. Fuori, la stessa parola può mentire: si traduce al bordo, non si fonde il modello.
 
+## Approfondimento
+
+Dopo questi sei capitoli, se serve il catalogo completo dei rapporti fra contesti (e il foglio per documentarne uno): [Canvas e relazioni — percorso 2.1](../2.1.Canvas-e-relazioni/README.md).
+
 ---
 
 **Inizia da qui →** [1. Parole, esempi, ambiguità](1.parole-esempi-ambiguita.md)
